@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExpenseTracker</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="recyclerview_content_description">Expenses List</string>
+    <string name="add_item_content_description">Add Item Button</string>
+    <string name="empty_view_content_description">Empty View</string>
+    <string name="no_expenses_content_description">No Expenses Message</string>
+    <string name="custom_bar_content_description">Custom Bar</string>
+    <string name="photo_image_content_description">Photo Image</string>
+    <string name="week_recyclerview_content_description">Weekly Expenses RecyclerView</string>
+
+
+</resources>

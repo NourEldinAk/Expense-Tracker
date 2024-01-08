@@ -1,0 +1,86 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Expenses:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@color/colorBlueGray"
+        />
+
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="315dp"
+            android:layout_height="185dp"
+            android:layout_below="@id/titleTextView"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="7dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/bg3" />
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/expensesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="483dp"
+        android:layout_below="@id/photoImageView"
+        android:layout_marginTop="-56dp"
+        android:padding="16dp" android:contentDescription="@string/recyclerview_content_description" />
+
+        />
+
+    <ImageView
+        android:id="@+id/empty_img"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+        android:layout_below="@id/expensesRecyclerView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="129dp"
+        android:alpha="0.6"
+        android:visibility="gone"
+        app:srcCompat="@drawable/bag" />
+
+    <TextView
+        android:id="@+id/no_expenses"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/empty_img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="103dp"
+        android:alpha="0.4"
+        android:text="No Expenses Available..."
+        android:visibility="gone" />
+
+        <Button
+            android:id="@+id/go_back_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/expensesRecyclerView"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Go Back"
+            android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
+</ScrollView>

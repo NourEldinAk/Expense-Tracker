@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customBar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="10dp"
+    >
+
+    <Button
+        android:id="@+id/btnToday"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Today"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/colorGreen"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        />
+
+    <Button
+        android:id="@+id/btnWeek"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Weekly"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/colorAccent"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        />
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:contentDescription="delete"
+        android:src="@drawable/baseline_delete_24"
+        android:background="@drawable/button_selector"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        />
+
+
+</LinearLayout>
