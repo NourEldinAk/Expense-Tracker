@@ -7,9 +7,9 @@ Welcome to Expense Tracker, your go-to solution for efficient expense tracking o
 
 Here are some screenshots of the Expense Tracker app in action:
 
-![Screenshot 1](screenshots/sc1.png)   ![Screenshot 2](screenshots/sc2.png)    ![Screenshot 3](screenshots/sc3.png)
+![Screenshot 1](screenshots/sc1.png)   ![Screenshot 2](screenshots/sc2.png)   ![Screenshot 3](screenshots/sc3.png)
 
-![Screenshot 4](screenshots/sc4.png)   ![Screenshot 5](screenshots/sc5.png)    ![Screenshot 6](screenshots/sc6.png)
+![Screenshot 4](screenshots/sc4.png)   ![Screenshot 5](screenshots/sc5.png)   ![Screenshot 6](screenshots/sc6.png)
 
 
 
